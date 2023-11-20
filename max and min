@@ -19,5 +19,7 @@ def find_max_min(numbers):
             
             return:
                 
-                numbers = [float(input)]
+                numbers = [float(input)(f"Enter number {i +1}: "): for i in range (n)]
+                max_value, min_value = find_max_min(numbers)
+
                 
